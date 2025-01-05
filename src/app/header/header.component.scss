@@ -1,0 +1,32 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #bec5a4;
+    overflow: hidden;
+    height: 60px;
+  }
+  
+  .left-menu {
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    justify-content: space-around;
+    margin-left: 20px;
+  }
+
+  .top-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+  .right-menu {
+    margin-right: 20px;
+  }
+
+  .topnav-img {
+    width:120px;
+    height: 100%;
+  }
+  
