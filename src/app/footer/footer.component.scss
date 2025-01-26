@@ -1,0 +1,29 @@
+.footer-bg {
+    background-color: #bec5a4;
+    overflow: hidden;
+    height: 150px;
+}
+
+.footer-img {
+    width:25%;
+    height: 100%;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-contact-detail {
+    display: flex;
+    flex-direction: column;
+}

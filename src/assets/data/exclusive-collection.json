@@ -1,0 +1,11 @@
+{
+    "collection_name": "Eid Collection",
+    "collection_description": "This is our special Eid collection",
+    "collections": [
+        { "imageUrl" : "assets/first-img.jpg", "description": "Shirt 1", "price": "IDR 239000"},
+        { "imageUrl" : "assets/first-img.jpg", "description": "Shirt 2", "price": "IDR 239000"},
+        { "imageUrl" : "assets/first-img.jpg", "description": "Shirt 3", "price": "IDR 239000"},
+        { "imageUrl" : "assets/first-img.jpg", "description": "Shirt 4", "price": "IDR 239000"},
+        { "imageUrl" : "assets/first-img.jpg", "description": "Shirt 5", "price": "IDR 239000"}
+      ]
+}
