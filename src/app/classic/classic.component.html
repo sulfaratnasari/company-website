@@ -1,0 +1,9 @@
+<h1 class="collection-title"> {{collectionData.collection_name}}</h1>
+<h2 class="collection-title"> {{collectionData.collection_description}}</h2>
+<div class="main-card">
+    <section class="listing" *ngFor="let item of collectionData.collections">
+        <img class="listing-photo" [src]="item.imageUrl">
+        <div class="listing-description">{{item.description}}</div>
+        <div class="listing-description">{{item.price}}</div>
+    </section>
+</div>

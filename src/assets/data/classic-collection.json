@@ -1,0 +1,11 @@
+{
+    "collection_name": "Collection 1",
+    "collection_description": "This is our first collection",
+    "collections": [
+        { "imageUrl" : "assets/first-img.jpg", "description": "Shirt 1", "price": "IDR 199000"},
+        { "imageUrl" : "assets/first-img.jpg", "description": "Shirt 2", "price": "IDR 189000"},
+        { "imageUrl" : "assets/first-img.jpg", "description": "Shirt 3", "price": "IDR 209000"},
+        { "imageUrl" : "assets/first-img.jpg", "description": "Shirt 4", "price": "IDR 259000"},
+        { "imageUrl" : "assets/first-img.jpg", "description": "Shirt 5", "price": "IDR 249000"}
+      ]
+}
