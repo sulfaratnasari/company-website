@@ -1,0 +1,19 @@
+.about-us-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; 
+    padding: 20px;
+}
+
+.about-us-content, 
+.about-us-wrapper h1 {
+    width: 50%; 
+    text-align: justify; 
+    line-height: 1.5;
+}
+
+.about-us-wrapper h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}

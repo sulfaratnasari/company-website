@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import aboutUs from '../../assets/data/about-us.json';
 
 @Component({
   selector: 'app-about-us',
@@ -8,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrl: './about-us.component.scss'
 })
 export class AboutUsComponent {
-
+  aboutUs =  aboutUs;
 }
