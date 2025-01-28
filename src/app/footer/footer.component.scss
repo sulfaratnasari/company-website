@@ -16,6 +16,7 @@
     align-items: center;
     flex-wrap: wrap; /* Allow wrapping for smaller screens */
     height: auto; /* Adjust height for content */
+    font-family: Raleway;
 }
 
 .footer-detail {
@@ -33,6 +34,7 @@
 }
 
 .footer-contact-detail {
+    font-family: Raleway;
     display: flex;
     flex-direction: column;
     align-items: center; /* Center align for better layout on small screens */
@@ -41,6 +43,7 @@
 .contact-detail-name{
     display: flex;
     flex-direction: row;
+    font-family: Raleway;
 }
 
 .social-media-logo {
