@@ -10,5 +10,13 @@ import exclusiveCollection from '../../assets/data/exclusive-collection.json';
   styleUrl: './exclusive.component.scss'
 })
 export class ExclusiveComponent {
-    collectionData = exclusiveCollection;
+  allCollectionData = exclusiveCollection;
+  selectedCollection = this.allCollectionData[0];
+
+  onCollectionChange(event: Event): void {
+    const selectedCollectionName = (event.target as HTMLSelectElement).value;
+    this.selectedCollection = this.allCollectionData.find(
+      (collection) => collection.collection_name === selectedCollectionName
+    )!;
+  }
 }

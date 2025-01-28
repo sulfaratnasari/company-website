@@ -1,34 +1,36 @@
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #bec5a4;
-    overflow: hidden;
-    height: 60px;
-  }
-  
-  .left-menu {
-    display: flex;
-    flex-direction: row;
-    width: 10%;
-    justify-content: space-around;
-    margin-left: 20px;
-  }
+  background-color: whitesmoke;
+  overflow: hidden;
+  height: 100%;
+  font-family: Raleway;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 
-  .top-flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-  }
+.top-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 20px;
+  margin-bottom: 20px;
+}
 
-  .right-menu {
-    margin-right: 40px;
-  }
+.topnav-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
 
-  .topnav-img {
-    width:15%;
-    height: 100%;
-  }
+.active {
+  font-weight: bold;
+  color: black;
+  text-decoration: underline;
+}
 
   /* Mobile Styles */
 @media (max-width: 768px) {
