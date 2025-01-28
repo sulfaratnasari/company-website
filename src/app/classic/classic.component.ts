@@ -7,8 +7,16 @@ import classicCollection from '../../assets/data/classic-collection.json';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './classic.component.html',
-  styleUrl: './classic.component.scss'
+  styleUrls: ['./classic.component.scss']
 })
 export class ClassicComponent {
-    collectionData = classicCollection;
+  allCollectionData = classicCollection;
+  selectedCollection = this.allCollectionData[0];
+
+  onCollectionChange(event: Event): void {
+    const selectedCollectionName = (event.target as HTMLSelectElement).value;
+    this.selectedCollection = this.allCollectionData.find(
+      (collection) => collection.collection_name === selectedCollectionName
+    )!;
+  }
 }

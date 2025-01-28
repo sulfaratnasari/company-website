@@ -38,6 +38,17 @@
     align-items: center; /* Center align for better layout on small screens */
 }
 
+.contact-detail-name{
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media-logo {
+    width:15px;
+    height:15px;
+    margin-top:4px;
+}
+
 /* Mobile Styles */
 @media (max-width: 768px) {
     .footer-content {

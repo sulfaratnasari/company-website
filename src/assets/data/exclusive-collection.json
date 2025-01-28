@@ -1,11 +1,21 @@
-{
-    "collection_name": "Eid Collection",
-    "collection_description": "This is our special Eid collection",
-    "collections": [
-        { "imageUrl" : "assets/first-img.jpg", "description": "Shirt 1", "price": "IDR 239000"},
-        { "imageUrl" : "assets/first-img.jpg", "description": "Shirt 2", "price": "IDR 239000"},
-        { "imageUrl" : "assets/first-img.jpg", "description": "Shirt 3", "price": "IDR 239000"},
-        { "imageUrl" : "assets/first-img.jpg", "description": "Shirt 4", "price": "IDR 239000"},
-        { "imageUrl" : "assets/first-img.jpg", "description": "Shirt 5", "price": "IDR 239000"}
-      ]
-}
+[
+  {
+      "collection_name": "Valentine Collection",
+      "collection_description": "We release this collection special for your valentine day!!",
+      "collections": [
+          { "imageUrl" : "assets/first-img.jpg", "description": "Blouse- Flower", "price": "IDR 199000"},
+          { "imageUrl" : "assets/first-img.jpg", "description": "Shirt - Chocholate", "price": "IDR 189000"},
+          { "imageUrl" : "assets/first-img.jpg", "description": "Blouse - Sweet Candy", "price": "IDR 209000"},
+          { "imageUrl" : "assets/first-img.jpg", "description": "Shirt - Rose", "price": "IDR 259000"},
+          { "imageUrl" : "assets/first-img.jpg", "description": "Shirt - Flower", "price": "IDR 249000"}
+        ]
+  },
+  {
+      "collection_name": "Kartini Collection",
+      "collection_description": "Kartini Day!!! Let's check out our limited edition collection!",
+      "collections": [
+          { "imageUrl" : "assets/first-img.jpg", "description": "Blouse - Red", "price": "IDR 199000"},
+          { "imageUrl" : "assets/first-img.jpg", "description": "Blouse - White", "price": "IDR 189000"}
+        ]
+  }
+]

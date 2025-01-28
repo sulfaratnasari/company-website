@@ -1,11 +1,21 @@
-{
-    "collection_name": "Collection 1",
-    "collection_description": "This is our first collection",
-    "collections": [
-        { "imageUrl" : "assets/first-img.jpg", "description": "Shirt 1", "price": "IDR 199000"},
-        { "imageUrl" : "assets/first-img.jpg", "description": "Shirt 2", "price": "IDR 189000"},
-        { "imageUrl" : "assets/first-img.jpg", "description": "Shirt 3", "price": "IDR 209000"},
-        { "imageUrl" : "assets/first-img.jpg", "description": "Shirt 4", "price": "IDR 259000"},
-        { "imageUrl" : "assets/first-img.jpg", "description": "Shirt 5", "price": "IDR 249000"}
-      ]
-}
+[
+  {
+      "collection_name": "Work Collection",
+      "collection_description": "Let's go to work!! You need to make money!!",
+      "collections": [
+          { "imageUrl" : "assets/first-img.jpg", "description": "Blouse- Red", "price": "IDR 299000"},
+          { "imageUrl" : "assets/first-img.jpg", "description": "Shirt - Monday", "price": "IDR 109000"},
+          { "imageUrl" : "assets/first-img.jpg", "description": "Blouse - Happy Friday", "price": "IDR 219000"},
+          { "imageUrl" : "assets/first-img.jpg", "description": "Shirt - Wednesday", "price": "IDR 159000"},
+          { "imageUrl" : "assets/first-img.jpg", "description": "Shirt - Flower", "price": "IDR 249000"}
+        ]
+  },
+  {
+      "collection_name": "Holiday Collection",
+      "collection_description": "Have a life, healing please :)",
+      "collections": [
+          { "imageUrl" : "assets/first-img.jpg", "description": "Blouse - Earth", "price": "IDR 199000"},
+          { "imageUrl" : "assets/first-img.jpg", "description": "Blouse - Beach", "price": "IDR 189000"}
+        ]
+  }
+]

@@ -1,9 +1,17 @@
-<h1 class="collection-title"> {{collectionData.collection_name}}</h1>
-<h2 class="collection-title"> {{collectionData.collection_description}}</h2>
-<div class="main-card">
-    <section class="listing" *ngFor="let item of collectionData.collections">
-        <img class="listing-photo" [src]="item.imageUrl">
-        <div class="listing-description">{{item.description}}</div>
-        <div class="listing-description">{{item.price}}</div>
+<div class="dropdown-filter">
+    <select id="collection-select" (change)="onCollectionChange($event)">
+      <option *ngFor="let collection of allCollectionData" [value]="collection.collection_name">
+        {{ collection.collection_name }}
+      </option>
+    </select>
+  </div>
+  
+  <h1 class="collection-title">{{ selectedCollection.collection_name }}</h1>
+  <h2 class="collection-title">{{ selectedCollection.collection_description }}</h2>
+  <div class="main-card">
+    <section class="listing" *ngFor="let item of selectedCollection.collections">
+      <img class="listing-photo" [src]="item.imageUrl">
+      <div class="listing-description">{{ item.description }}</div>
+      <div class="listing-description">{{ item.price }}</div>
     </section>
-</div>
+  </div>
